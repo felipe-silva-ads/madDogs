@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./_CSS/style.css">
+    <link href="./_CSS/bootstrap.min.css" rel="stylesheet">
+    <title>MadDog's</title>
+</head>
+<body data-barba="wrapper">
+
+
+
+
+<section class="section one">
+    <div class="container fluid">
+        <h1 class="title">MadDog's</h1>
+            <div class="row home">
+                <div class="hero d-flex justify-content-center">
+                    <img class="imgLogo" src="_ASSETS/_IMGS/buldog.png" alt="logo">
+                </div>
+            </div>
+            <div class="btnIn" onClick="infoDiv()"> 
+               >> Get In <<
+            </div>
+        </div>
+</section>
+
+<section class="section two" id="two">
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="nav">
+                <div class="logoNav"><img src="./_ASSETS/_IMGS/buldog.png" alt="Logo"></div>
+                <ul>
+                    <li><a href="#one" onClick="homeDiv()">Home</a></li>
+                    <li><a href="#two">Info</a></li>
+                    <li><a href="#thre">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-12 heroImg">
+                <img src="./_ASSETS/_IMGS/pincher.png" alt="Hero Img">
+                <div class="progressWrapper">
+                    <div class="progressOne">
+                        <p>Style:</p>
+                        <div class="barOne">
+                            <div class="statusOne" data-target="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="progressTwo">
+                        <p>Mad:</p>
+                        <div class="barTwo">
+                            <div class="statusTwo"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-sm-12">
+                <h1 class="titleHero">MadDog's</h1>
+                <p class="heroText">MadDog’s, a brand for people who like dogs and style.</p>
+            </div>
+        </div>
+        </div>
+</section>
+
+
+
+
+
+
+<!---------------SCRIPTS------------------->    
+<script src="./_JS/jquery.js"></script>
+<script src="./_JS/bootstrap.bundle.min.js"></script>
+<script src="./_JS/vanilla-tilt.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollToPlugin.min.js"></script>
+<script src="./_JS/app.js"></script>
+
+</body>
+</html>
